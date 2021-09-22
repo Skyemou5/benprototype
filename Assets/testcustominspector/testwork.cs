@@ -6,10 +6,9 @@ using UnityEngine;
 
 public class testwork : MonoBehaviour, INotifyPropertyChanged
 {
-   
-
+    
+    [SerializeField]
     private int test1;
-
     public int Test1
     {
         get
@@ -20,13 +19,11 @@ public class testwork : MonoBehaviour, INotifyPropertyChanged
         {
             test1 = value;
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(test1)));
-
         }
     }
+    
     [SerializeField]
-
     private float testFloat;
-
     public float TestFloat
     {
         get
@@ -37,13 +34,11 @@ public class testwork : MonoBehaviour, INotifyPropertyChanged
         {
             testFloat = value;
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(testFloat)));
-
         }
     }
+    
     [SerializeField]
-
     private float testFloat1;
-
     public float TestFloat1
     {
         get
@@ -54,12 +49,11 @@ public class testwork : MonoBehaviour, INotifyPropertyChanged
         {
             testFloat1 = value;
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(testFloat1)));
-
         }
     }
+    
     [SerializeField]
     private float testFloat2;
-
     public float TestFloat2
     {
         get
@@ -72,8 +66,7 @@ public class testwork : MonoBehaviour, INotifyPropertyChanged
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(testFloat2)));
         }
     }
-
-
+    
     public event PropertyChangedEventHandler PropertyChanged;
 
 }
