@@ -61,3 +61,7 @@ Thumbs.db.meta
 
 # VS Code
 *.vscode
+
+src/shipexplode/backup/
+
+src/shipexplode/geo/

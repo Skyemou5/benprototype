@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 
 using UnityEngine;
-[Binding]
+
 public class testwork : MonoBehaviour, INotifyPropertyChanged
 {
    
