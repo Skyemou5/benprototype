@@ -6,8 +6,8 @@
             <ui:VisualElement name="picture" class="picture" style="border-left-color: rgb(146, 255, 90); border-right-color: rgb(146, 255, 90); border-top-color: rgb(146, 255, 90); border-bottom-color: rgb(146, 255, 90); border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; width: 100px; height: 100px;" />
         </ui:VisualElement>
         <ui:VisualElement name="fields" class="fields" style="flex-grow: 1; flex-direction: column; width: 100%; justify-content: center; border-left-color: rgb(229, 173, 27); border-right-color: rgb(229, 173, 27); border-top-color: rgb(229, 173, 27); border-bottom-color: rgb(229, 173, 27); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
-            <uie:IntegerField label="Int Field" value="0" name="test1" class="test1" />
             <uie:IntegerField label="Int Field" value="100" name="test2" />
+            <uie:FloatField label="Float Field" value="42.2" name="test1" />
         </ui:VisualElement>
         <ui:VisualElement name="buttons" class="buttons">
             <ui:Button text="Button" display-tooltip-when-elided="true" class="button_two" />
