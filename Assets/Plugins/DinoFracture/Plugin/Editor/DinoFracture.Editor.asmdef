@@ -1,0 +1,16 @@
+{
+    "name": "DinoFracture.Editor",
+    "references": [
+        "GUID:e097f49b41a796c4fa06fb816ebac638"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

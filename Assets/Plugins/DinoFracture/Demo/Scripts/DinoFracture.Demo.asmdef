@@ -1,0 +1,15 @@
+{
+    "name": "DinoFracture.Demo",
+    "references": [
+        "GUID:e097f49b41a796c4fa06fb816ebac638"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

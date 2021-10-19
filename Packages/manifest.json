@@ -2,6 +2,7 @@
   "dependencies": {
 
     "com.sidefx.houdiniengine": "file:../../../packages/houdiniengineunitypackage/com.sidefx.HoudiniEngineUnity",
+
     "com.unity.cinemachine": "2.7.4",
     "com.unity.collab-proxy": "1.7.1",
     "com.unity.ide.rider": "3.0.7",
