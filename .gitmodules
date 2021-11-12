@@ -1,0 +1,3 @@
+[submodule "Assets/HDAs/spaces-aces-HDAs"]
+	path = Assets/HDAs/spaces-aces-HDAs
+	url = https://github.com/benshurts/spaces-aces-HDAs.git
